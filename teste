@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Untitled-2.css" media="screen" />
+    <title></title>
+</head>
+
+<body>
+    
+    <div>
+        <h2>Previsão do tempo</h2>
+    <img src="6961300.png" href="icone de nuvem" >
+        <h5>37°</h5>
+    <h4>Graus</h4>
+    <h3>Status do Varal: Estendido</h3>
+    
+    <h4>Deseja recolher o varal?</h4>
+
+    <select id="varal">
+    <option selected disabled value="">Selecione</option>
+    <option>Sim</option>
+    <option>Não</option>
+</select>
+    
+<br>
+    <button type="button"
+    onclick="document.getElementById('demo').innerHTML = Date()">
+    Enviar!</button>
+    
+    <p id="demo"></p>
+
+</div>
+
+    
+     
+    
+
+</body>
+
+</html>
+
+
+
+
+
+CSS
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(121, 82, 82);
+    background-image: url(nuvem\ de\ fundo);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    font-size: 1;
+    justify-content: center;
+    line-height: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+
